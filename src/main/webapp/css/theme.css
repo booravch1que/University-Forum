@@ -1,0 +1,81 @@
+#ThemePost p{
+    text-align: left;
+}
+#ThemePost{
+    background-color: cornflowerblue;
+    border: black 1px solid;
+    max-width: 50%;
+    min-height: 90px;
+}
+#ThemeAuthor{
+    display: inline-block;
+    border: black 1px solid;
+    min-width: 40px;
+}
+#ThemeAuthor p{
+   background-color: white;
+    font-family: 'Comfortaa','sans-serif';
+    margin: 0;
+    text-align: center;
+}
+#ThemeID {
+    width: 75%;
+    background-color: #8f9cf1;
+    height: 60px;
+    border: black 3px solid;
+    font-size: 130%;
+    font-family: 'Comfortaa', cursive, 'sans-serif';
+    padding: 4px;
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 10.5%;
+}
+#ThemeID li {
+    margin: auto;
+    display: inline;
+    padding: 3px;
+}
+#newPostArea{
+    position: absolute;
+    right: 230px;
+    max-width: 467px;
+    top:41.5%;
+}
+#editButton{
+    display: flex;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-color: limegreen;
+    text-align: center;
+    justify-content: center;
+}
+#deleteButton{
+    display: flex;
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    text-align: center;
+    justify-content: center;
+
+}
+#deleteButton p{
+    justify-content: center;
+}
+#editButton p{
+    justify-content: center;
+}
+#adminPanel{
+    float:right;
+ }
+#deleteTheme{
+    display: flex;
+    float: right;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    justify-content: center;
+
+}

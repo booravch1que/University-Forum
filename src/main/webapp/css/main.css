@@ -1,0 +1,55 @@
+#commandBlock{
+    width: auto;
+    height: 45px;
+    background-color: cornflowerblue;
+    border: black 3px solid;
+    font-size: 125%;
+    font-family: 'Comfortaa', cursive, 'sans-serif';
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+
+
+}
+#commandBlock li {
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+}
+#ThemeCreation{
+    width: 465px;
+    font-family: 'Comfortaa', cursive, 'sans-serif';
+}
+#ThemeCreationBlock{
+    border: black 1px solid;
+    margin-left: 600px;
+    margin-top: 100px;
+    margin-right: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(100, 149, 237, 0.82);
+}
+#themeBlock{
+    background-color: rgba(100, 149, 237, 0.82);
+    border: black 3px solid;
+    font-family: 'Comfortaa', cursive, 'sans-serif';
+    text-align: center;
+    display: inline-block;
+    min-width:400px;
+    }
+#themePostsList{
+    font-family: 'Comfortaa', cursive, 'sans-serif';
+    text-align: center;
+    display: flex;
+    flex-wrap:wrap;
+}
+#themePostsList div{
+    margin:auto;
+    max-width: 260px;
+    min-width: 260px;
+    min-height: 60px;
+    text-align: center;
+    display: inline-block;
+    border: black 2px solid;
+    word-wrap: break-word;
+    }
